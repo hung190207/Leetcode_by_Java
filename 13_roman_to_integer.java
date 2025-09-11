@@ -21,6 +21,7 @@ class roman_to_integer {
                     break;
                 case 'D':
                     temp = 500;
+                    break;
                 case 'M':
                     temp = 1000;
                     break;
@@ -38,6 +39,6 @@ class roman_to_integer {
 
     public static void main(String[] args) {
         roman_to_integer roman_to_integer = new roman_to_integer();
-        System.out.println(roman_to_integer.romanToInt("MCMXCIV"));
+        System.out.println(roman_to_integer.romanToInt("DCXXI"));
     }
 }
